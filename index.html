@@ -1,34 +1,69 @@
 <DOCTYPE! html>
 
 <html>
+  <style>
+    header {
+      background-color: #29364F;
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+      color: white;
+    }
+    m {
+      "Courier New", Courier, monospace
+    }
+    nav {
+      float: left;
+      width: 20%;
+      padding: 20px;
+    }
+    footer {
+      padding: 10px;
+      text-align: center;
+      color: black;
+    }
+    article {
+      float: left;
+      padding: 20px;
+      width: 70%;
+    }
+    @media (max-width: 600px) {
+      nav, article {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
 
   <tt>
-    <div align=center>
-      <h1>Owen Sheekey</h1>
-      <p>
-        <br>// physics and computer science student at the university of british columbia //
-        <br>
-        <br> ---------------------------------------------------
-        <br>
+    <header>
+      <m> Owen Sheekey </m>
+    </header>
+    <nav>
+      <a href="./experience.html">Experience</a> <br>
+      <a href="./about_me.html">Resume/CV and other boring stuff</a>
+    </nav>
+
+    <article>
+      <p/> I am currently pursuing a degree in Computer Science and Physics at the University
+      of British Columbia in Vancouver, Canada. Before I came to school here in Vancouver,
+      I went to high school in a town called New Paltz in upstate New York. Some of my interests
+      are running, nordic skiing, programming, and really anything outdoors.
       </p>
-    </div>
+      <p> Most of my research interests lie in condensed matter physics, expecially
+      in the production and characterization of quantum devices. Outside of condensed
+      matter, I am drawn particularly to the field of mathematical modelling.
 
-    
-    <div align = left>
-      <a href="./experience.html">Experience</a>
-    </div>
-    <p>
-      <br>
-      <br>
-    </p>
+    </article>
 
-    <div align = left>
-      <a href="./about_me.html">About me</a>
-    </div>
-    <p>
-      <br>
-      <br>
-    </p>
+    <footer>
+      <p> <a href="https://github.com/oishish/">Github</a> ||
+      <a href="https://www.linkedin.com/in/owen-sheekey-5a11a1133/">LinkedIn</a> ||
+      <a href="mailto:oisheekey@gmail.com">Email</a> 
+      </p>
+    </footer>
+
+
     <!--
     <div align = left>
       <a href="./portfolio.html">Portfolio</a>
